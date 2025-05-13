@@ -14,7 +14,7 @@ with st.spinner('Model is being loaded..'):
   model=load_model()
 
 
-st.markdown("<h1 style='text-align: center; color: red;'>Poultry Diseases Identifier 🐣🐓💩 App Using Machine Learning</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>Poultry Diseases Identifier 🐣🐓💩 App Using Machine Learning</h1>", unsafe_allow_html=True)
 st.title('')
 
 file = st.file_uploader("You can check your poultry bird's health via Poultry Disease Identifier. This app helps to detect unhealthy diseases such as Coccidiosis, Salmonella, and Newcastle from image files of chicken feces.", type=["jpg", "png", "jpeg"])
